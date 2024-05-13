@@ -1,0 +1,28 @@
+{
+  "name": "wagmi-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": " vite build",
+    "lint": "biome check .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.22.2",
+    "react": "^18.2.0",
+    "@web3modal/wagmi": "^4.1.11",
+    "react-dom": "^18.2.0",
+    "viem": "2.9.16",
+    "wagmi": "2.5.12"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.1.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.1.0",
+    "buffer": "^6.0.3",
+    "typescript": "^5.4.5",
+    "vite": "^4.4.9"
+  }
+}
